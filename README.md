@@ -6,8 +6,7 @@
 ## 📋 Project Overview
 
 A full-stack Django data analytics system built on the PostgreSQL DVD Rental database.
-Features OLAP star schema, ETL pipeline, ML models (recommender, predictor, clustering),
-and a Netflix-inspired dark dashboard.
+Features OLAP star schema, ETL pipeline, ML models (recommender, predictor, clustering).
 
 ---
 
@@ -116,18 +115,24 @@ Open: **http://127.0.0.1:8000/**
 ## 🚀 Usage Guide
 
 ### Step 1 — Run ETL Pipeline
+<img width="1911" height="853" alt="Screenshot 2026-04-05 221255" src="https://github.com/user-attachments/assets/a65d8f04-2305-4817-9c19-0b52c94d8289" />
+
 Navigate to **ETL Pipeline** → Click **🚀 Run Full ETL Pipeline**
 - Extracts from OLTP `dvdrental`
 - Transforms and aggregates data (film stats, customer stats, genre stats)
 - Loads into OLAP star schema tables
 
 ### Step 2 — Train ML Models
+<img width="1911" height="911" alt="Screenshot 2026-04-05 162252" src="https://github.com/user-attachments/assets/6991dde8-f836-4ccc-8c98-347ce1e84836" />
+
 Navigate to **ML Models** → Train each model:
 1. **🎬 Film Recommender** — Click "Train Model" to build cosine-similarity matrix
 2. **📈 Popularity Predictor** — Click "Train Model" to fit GradientBoosting regressor
 3. **👥 Customer Clustering** — Set k value, click "Train Model" for KMeans
 
 ### Step 3 — View Dashboard
+<img width="1910" height="951" alt="Screenshot 2026-04-04 164706" src="https://github.com/user-attachments/assets/a4ada022-540c-4d54-bd58-363e2c55ce73" />
+
 Navigate to **Dashboard** to see:
 - KPI cards (rentals, revenue, customers, top film)
 - Rental trend line chart
