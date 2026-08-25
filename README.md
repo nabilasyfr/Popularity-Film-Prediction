@@ -247,15 +247,6 @@ dvd_analytics/                    ← Folder utama project
 │   └── clustering.pkl
 │
 └── manage.py                     ← Perintah Django
-## 👥 Team Roles (Suggestion)
-
-| Member | Focus Area                                  |
-|--------|---------------------------------------------|
-| A      | ETL Pipeline + Star Schema SQL              |
-| B      | Film Recommender + Dashboard Charts         |
-| C      | Popularity Prediction + KPI Cards           |
-| D      | Customer Clustering + Segment Analysis      |
-| E      | Frontend UI + Integration                   |
 
 ---
 
